@@ -1,7 +1,12 @@
 //schools, megan's list
+var zillowFunc = require('zillow.js')
+var craigslistAddressScrape = require('craiglist.js');
+
 
 $(document).ready(function() {
-  console.log("content script running");
+
+
+
   var currentEndAddress = $('.zsg-content-header').children(':first').text();
   var firstTime = false;
   setInterval(function(){
