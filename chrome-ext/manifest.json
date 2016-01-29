@@ -8,7 +8,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["file://localhost/Users/*","http://www.zillow.com/homes/*"],
+      "matches": ["http://www.zillow.com/homes/*"],
       "js" : ["jquery.js", "showscript.js"]
 
     }
